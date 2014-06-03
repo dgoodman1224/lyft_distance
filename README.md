@@ -3,7 +3,7 @@ lyft_distance
 
 ###When given 4 coordinates, finds shortest logical route.  
 
-####Operates under athe following assumptions:
+####Operates under the following assumptions:
 * 1- Coordinates are given in a two-element array such as [1,7]
 * 2- All 4 coordinates are given as four separate elements
 * 3- Each coordinate is assumed to be given in order of driver A starting point, driver B starting point, driver A drop-off point, driver B drop-off point
