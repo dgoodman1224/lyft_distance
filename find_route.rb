@@ -29,7 +29,7 @@ end
 def return_string(trip_order, distance)
 #creates return string to describe trip and give total distance
 	#this hash defines what each point entails to return string showing order
-	responses = {'a' => 'pickup Driver A at his starting point' , 'b' => 'pickup Driver B at her starting point', 'c' => 'dropoff Driver A at his destination' , 'd' => 'dropoff Driver B at her destination'}
+	responses = {'a' => 'pickup Driver A at his starting point' , 'b' => 'pickup Driver B at her starting point', 'c' => 'drop-off Driver A at his destination' , 'd' => 'drop-off Driver B at her destination'}
 	"First you would #{responses[trip_order[0]]}, then you would #{responses[trip_order[1]]}, then you would #{responses[trip_order[2]]}, and finally #{responses[trip_order[3]]}.  The total distance would be #{distance} miles"
 end
 
