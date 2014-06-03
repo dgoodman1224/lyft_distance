@@ -30,3 +30,5 @@ def return_string(trip_order, distance)
 
 	"First you would #{responses[trip_order[0]]}, then you would #{responses[trip_order[1]]}, then you would #{responses[trip_order[2]]}, and finally #{responses[trip_order[3]]}.  The total distance would be #{distance} miles"
 end
+
+p find_shortest_distance([1,5],[1,10],[1,15],[1,20])
