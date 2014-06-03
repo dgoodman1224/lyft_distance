@@ -11,7 +11,7 @@ lyft_distance
 
 
 To use, call main function #find_shortest_distance while passing four coordinates as parameters.
-Returns a string describing the trip and the total distance of optimal trip
+Returns a string describing the trip, and the total distance of optimal trip
 
 #### Example: 
 
